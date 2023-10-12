@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="| Information Technology | Cybersecurity">
+    <meta name="Ian Galope" content="| Information Technology | Cybersecurity">
+	<title>[[OSINT]] Photo Metadata, Geolocation & Stenography Techniques | Part One: Photo Metadata reading with Exiftool and wxHexEditor</title>
+    <script defer src="support/index.js"></script>
+    <style type="text/css">
+    	h1{
+    		margin-bottom: 15px;
+    	}
+    </style>
+</head>
+
+<body style="background-color: whitesmoke;">
+<div class="container">
+
+	<div class="p-2 bg-light rounded-3 ">
+	    <h1 class="bg-dark text-white rounded-3 text-center">[[OSINT]] Photo Metadata, Geolocation & Stenography Techniques
+			<br>
+			Part One: Photo Metadata reading with Exiftool and wxHexEditor</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/-rgoYn-beMI?si=Zr9eokDkKYvOFSR3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		<br>	    
+	    <p class="lead">All photo file extensions, such as .JPEG, .PNG, .GIF, .BMP, contain “header” file information that is stored on the particular image file. Using ExiftoolGUI we can see this information displayed when uploading a file. This data is called “photo metadata” and is categorized by different image attributes such as File Name, Camera Model Name, Date/Time Original, Shooting Mode, ISO, and more..
+			<br>
+			<br>
+			ExifToolGUI provides an easy-to-use interface that allows us to view multiple files in a directory at once, allowing us to analyze and view multiple files without using any terminal commands. Let’s try this out on some sample files.
+			<br>
+			<br>			
+			Now we can see exactly when the photo was taken, what camera was used in order to take it, and whether or not the photo was geotagged. Pretty cool huh?
+			<br>
+			<br>			
+			But in some cases, there is information inside of the image header that ExifTool/GUI cannot be read. For this we will need to analyze the image with a Hex Editor. For this we will use wxHexEditor. Let's open up ‘image1.jpg’ again in that program..
+			<br>
+			<br>			
+			Here we can see image metadata that was previously unknown to us when we only used ExifTool.
+			<br>
+			<br>
+			Links:
+			<br>
+			<br>
+			<a href="https://lnkd.in/eF5xEzex">https://lnkd.in/eF5xEzex</a> 
+			<br>
+			<a href="https://lnkd.in/eWNndD39">https://lnkd.in/eWNndD39</a> 
+			<br>
+			<a href="https://lnkd.in/ezdm_BeE">https://lnkd.in/ezdm_BeE</a> 
+			<br>
+			<a href="https://lnkd.in/eMGxEs94">https://lnkd.in/eMGxEs94</a> 
+			<br>
+			<a href="https://lnkd.in/eZXQZQFX">https://lnkd.in/eZXQZQFX</a> 
+			<br>
+			<br>
+	    </p>
+	   
+		<div class="footer">
+        <p class="lead" style="text-align: center; color: darkmagenta;">Thanks for reading.</p>
+        <figure>
+        	<blockquote class="blockquote">
+        		<p style="text-align: center;">[[OSINT]] Photo Metadata, Geolocation & Stenography Techniques
+					<br>
+		
+					Part One: Photo Metadata reading with Exiftool and wxHexEditor</p>
+        	</blockquote>
+        	<figcaption class="blockquote-footer" style="text-align: center;">by <cite><a href="/about.html" target="_blank">Ian Galope</a></cite></figcaption>
+        </figure>
+		</div>	
+	</div>
+</div>
+</body>
+</html>
